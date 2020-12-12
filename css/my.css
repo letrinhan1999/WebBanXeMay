@@ -1,0 +1,106 @@
+/* Font */
+@font-face {
+    font-family: 'FS Core Magic Rough';
+    src: url('../font/FSCoreMagicRough.woff2') format('woff2'),
+        url('../font/FSCoreMagicRough.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FS-Tropen-Serif';
+    src: url('../font/FS-Tropen-Serif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FS-Tropen-Sans';
+    src: url('../font/FS-Tropen-Sans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'big_noodle_titling';
+    src: url('../font/big_noodle_titling.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FZShuTi';
+    src: url('FZSTK--GBK1-0.woff2') format('woff2'),
+        url('FZSTK--GBK1-0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.moto_image{
+    width: 300px;
+    height: 350px;
+    
+}
+.cate{
+    font-family: 'FS Core Magic Rough';
+}
+.moto_col{
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px #cccccc;
+    border-width: 1px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 320px;
+    padding: 0;
+    
+
+}
+.moto_row{
+    margin-left: 5px;
+}
+.brand{
+    font-size: 25px;
+    border-top: 1px solid #cccccc;
+    font-family: 'FS-Tropen-Serif';
+    height: 40px;
+    padding-left: 10px;
+}
+.brand > a:hover{
+    text-decoration: none;
+}
+.pages{
+    font-size: 20px;
+}
+.logo_name{
+    font-family: 'FS Core Magic Rough';
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.logo_moto{
+    font-family: 'FS Core Magic Rough';
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.logo_o{
+    color: crimson;
+}
+.logo:hover{
+    text-decoration: none !important;
+    color: crimson;
+
+}
+.footer_social-list{
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+}
+.footer_social-list > li{
+
+    margin-right: 30px;
+
+}
+.footer_social-list > li > a{
+    color: white;
+}
